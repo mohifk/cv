@@ -5,7 +5,7 @@ app_name='website'
 
 urlpatterns = [
 
-    path ('/gfg',home_page_view,name='index'),
+    path ('',home_page_view,name='index'),
     path ('languege/',language,name='language'),
     path ('education/',education,name='education'),
     path ('abilites/',abilites,name='abilites'),
